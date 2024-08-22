@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between buttons */
+}
+
+.color-button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.color-button:nth-child(4) {
+  color: #000; /* Text color for the yellow button */
+}
